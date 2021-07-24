@@ -19,6 +19,7 @@ Salida
 
 La secuencia "S" después de ejecutar "f" sobre ella.
 
+// agregando un comentario Cesar Benavides Alvarez
 
 */#include <iostream>
 
