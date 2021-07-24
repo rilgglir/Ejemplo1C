@@ -18,8 +18,13 @@ elementos de "S" están entre 0 y 10 a la 6a potencia.
 Salida
 
 La secuencia "S" después de ejecutar "f" sobre ella.
+*/
 
-*/#include <iostream>
+// agregando un comentario Cesar Benavides Alvarez
+
+====================
+
+#include <iostream>
 //Variables Globales
 int N;
 
