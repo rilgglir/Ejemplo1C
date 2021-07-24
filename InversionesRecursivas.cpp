@@ -18,21 +18,24 @@ elementos de "S" están entre 0 y 10 a la 6a potencia.
 Salida
 
 La secuencia "S" después de ejecutar "f" sobre ella.
+*/
 
 // agregando un comentario Cesar Benavides Alvarez
 
-*/#include <iostream>
+====================
+
+#include <iostream>
+//Variables Globales
+int N;
 
 using namespace std;
 
-void imprimir(int S[], int N);
+void imprimir(int S[]);
 void invertir(int inf, int sup, int S[], int N);
 
 int main() {
 	
-	int N;
-	
-	
+
 	cin >> N;
 	
 	int S[N];
@@ -52,12 +55,12 @@ int main() {
     
     
   //	cout << "\n El arreglo termina con: \n";  
-  	imprimir(S,N);
+  	imprimir(S);
 	
 	return 0;
 };
 
-void imprimir(int S[], int N){
+void imprimir(int S[]){
 
 	
 	for(int i=0;i<N ; i++){
@@ -99,3 +102,4 @@ void invertir(int inf, int sup, int S[], int N){
 		invertir(infIzq,supIzq,S,nuevoN);
 		invertir(infDer,supDer,S,nuevoN);
 	}
+}
