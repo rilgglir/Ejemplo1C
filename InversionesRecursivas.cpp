@@ -21,7 +21,7 @@ La secuencia "S" después de ejecutar "f" sobre ella.
 */
 
 // agregando un comentario Cesar Benavides Alvarez
-//Comentario Julio Cesar_Tapia Herrera
+//Comentario Julio Cesar_Tapia_Herrera
 ====================
 
 #include <iostream>
